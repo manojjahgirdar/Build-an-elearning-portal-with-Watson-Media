@@ -99,13 +99,30 @@ using the same ID,
 ## 2. Create the Channels.
 ```
 >> [MJ] Explain a little bit about channels, why are we creating them what purpose do they solve etc..
-this is just to give a background for non technical develoeprs.
+this is just to give a background for non technical people trying to execute the code pattern.
 ```
 * Click on `Create Channel`.
+
+```
+>> [MJ] buttons, links, titles, etc should be like this **Create Channel**
+and any configurations like api, credentials.json etc should be in back quotes
+Ex: `credentials.json` hence change this everywhere wherever necessary.
+```
+
   ```
   Note: Free Trial allows you to create only one channel, you need to upgrade to premium account to create more.
   ```
 * Give the `Channel Name.` 
+
+``` 
+>> [MJ] There is no channel name field, there is a title field
+hence change it to something like this:
+
+In the **Title** field, enter your channel name, and under **Language of videos and broadcasts**,
+select your desired language, finally click on **Create** as shown.
+
+```
+
 * Select the `Language` from the dropdown 
 * Hit `Create` button. 
 
@@ -113,6 +130,11 @@ this is just to give a background for non technical develoeprs.
 
 
 * To View `Channel Page`, click on the `view Channel Page`
+
+```
+>> [MJ] You can put this under note.
+>Note: You can view the **Channel Page** by clicking on the **View Channel Page** in the left panel.
+```
 
 ## 3. Upload Videos on the Channel.
 * Click on `Videos Button` on the left-hand side Dashboard. 
@@ -127,10 +149,16 @@ this is just to give a background for non technical develoeprs.
 ![Watch this Gif](doc/src/images/upload.gif)
 
 ```
->> [MJ] The Gif seems to be fast, you can try a simple tool called [giphy capture](https://giphy.com/apps/giphycapture) to capture gifs.
+>> [MJ] The Gif seems to be fast, you can try a simple tool called giphy capture (https://giphy.com/apps/giphycapture) to capture gifs.
 ```
 
 ## 4. Create Playlists.
+
+```
+>> [MJ] Again Explain what is a playlist, how they work. Just few lines should be enough
+this is again to give a background for non technical people trying to execute the code pattern.
+```
+
 * Click on `Playlist Button` on the left-hand side Dashboard. 
 * Click `Create Playlist` button.
 * Give Playlist Name
