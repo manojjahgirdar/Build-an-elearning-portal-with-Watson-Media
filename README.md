@@ -4,9 +4,9 @@ The COVID pandemic has altered our conventional ways of working in companies, st
 
 [IBM Watson Media](https://www.ibm.com/watson/media) offers AI-driven solutions for live streaming events, corporate communication, video analytics, and content management. This Comprehensive video streaming platform provides Live stream and auto-archive for video-on-demand viewing to boost overall reach and engagement. Use IBM Watson Media solutions to stream events, executive town halls, video marketing product launches, and entertainment OTT (over-the-top) streaming. Built for scale and reliability, to optimize video quality, and powered by IBM Watson AI for video search and automated closed captioning, our video solutions are used by thousands of enterprises, service providers, educators, and media companies worldwide to improve video workflows, reliability and content monetization.
 
-```
+<pre><code>
 >> [MJ] This paragraph is copied as it is from https://www.ibm.com/watson/media which will bring down the NPS score. Hence you can simple write a few lines in your own words or you can say learn more about watson media here and give the above link.
-```
+</code></pre>
 
 In this code pattern, we will demonstrate how to quickly build an `e-learning portal` using `Watson Media`.
 
