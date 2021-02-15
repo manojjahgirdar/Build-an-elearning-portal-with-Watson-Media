@@ -64,6 +64,10 @@ The Scope of this Code Pattern is limited to following capabilities. `However, t
 
 [![]()
 
+```
+>> [MJ] you can comment this section and just say coming soon if you are planning to add the video.
+```
+
 ### Steps
 1. [Login using IBMID on IBM Watson Media.](#1-login-using-ibmid-on-ibm-watson-media)
 1. [Create the Channels.](#2-create-the-channels)
