@@ -118,10 +118,17 @@ this is just to give a background for non technical develoeprs.
 * Click on `Videos Button` on the left-hand side Dashboard. 
 * Click `upload` button.
 * Select all the files you want to upload from the computer and click `open`.
+```
+>> [MJ] Are we not providing any sample video files?
+```
 * Click `Start to Upload` Button. 
 * After the upload is complete, Go back to Dashboard, under Videos section, Select all the uploaded videos and Hit Publish. 
     
 ![Watch this Gif](doc/src/images/upload.gif)
+
+```
+>> [MJ] The Gif seems to be fast, you can try a simple tool called [giphy capture](https://giphy.com/apps/giphycapture) to capture gifs.
+```
 
 ## 4. Create Playlists.
 * Click on `Playlist Button` on the left-hand side Dashboard. 
