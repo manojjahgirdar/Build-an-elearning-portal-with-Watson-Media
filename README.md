@@ -169,12 +169,20 @@ please be patient for the upload to complete and watson media to process it."
 ```
 * Click `Start to Upload` Button. 
 * After the upload is complete, Go back to Dashboard, under Videos section, Select all the uploaded videos and Hit Publish. 
+
+``` 
+>> [MJ] Go back to Dashboard, click on **Channel > Videos**, select all the uploaded videos and Hit Publish.
+``` 
     
 ![Watch this Gif](doc/src/images/upload.gif)
 
 ```
->> [MJ] The Gif seems to be fast, you can try a simple tool called giphy capture (https://giphy.com/apps/giphycapture) to capture gifs.
+>> [MJ] The Gif seems to be fast, probably you can just keep the images individually rather than a gif or you can try a simple tool called giphy capture (https://giphy.com/apps/giphycapture) to capture gifs.
 ```
+``` 
+>> [MJ] Add this point: * You will see a message popup saying the selected videos are published.
+``` 
+
 
 ## 4. Create Playlists.
 
@@ -184,37 +192,106 @@ this is again to give a background for non technical people trying to execute th
 ```
 
 * Click on `Playlist Button` on the left-hand side Dashboard. 
+``` 
+>> [MJ] Click on **Playlist** in the left panel
+``` 
 * Click `Create Playlist` button.
 * Give Playlist Name
+``` 
+>> [MJ] There is no playlist name field, there is a title field
+hence change it to something like this:
+
+In the **Title** field, enter your playlist name, and click on **Create playlist** as shown.
+```
+
 * Add Videos to the playlist and Hit `create button` 
+
+``` 
+>> [MJ] Add this point: * You will see a message popup saying the selected videos are published.
+``` 
+
 
 ![Watch this Gif](doc/src/images/playlist.gif)
 
+```
+>> [MJ] The Gif seems to be fast, probably you can just keep the images individually rather than a gif or you can try a simple tool called giphy capture (https://giphy.com/apps/giphycapture) to capture gifs.
+```
+
 ## 5. Give Password Restriction on the Channel.
+``` 
+>> [MJ] Explain why is this an important feature and how will it help the content creators, in few lines should be good enough.
+``` 
 * On the Dashboard, Click on `Security` Tab on the left-side panel.
+
 * Click on `Password Protection`
+``` 
+>> [MJ] Click on **settings** next to **Password Protection**.
+``` 
 * Checkmark the `Enable Password Protection` button.
 * Give the Channel Password of your choice and hit `save`. 
 
 <img src="doc/src/images/password.png" alt="Create Channel" title="Create Channel" width="800" height="500" />
 
 ## 6. Restrict Domains where video can be embedded.
+``` 
+>> [MJ] Again explain why is this an important feature and how will it help the content creators, in few lines should be good enough.
+``` 
 * On the Dashboard, Click on `Security` Tab on the left-side panel.
 * Click on `Embed Restriction`
+``` 
+>> [MJ] Click on **settings** next to **Restrict embed URLs**.
+``` 
 * Checkmark the `specify the domains where your streams can be embedded ` button.
 * Give the domains where you want to allow or restrict and hit `save`. 
+``` 
+>> [MJ] This domain will be available only after the application is deployed on kubernetes hence this step should be after step 7.
+``` 
 
 <img src="doc/src/images/restrictembed.png" alt="Create Channel" title="Create Channel" width="800" height="500" />
 
 ## 7. Build a web appplication using Channel API.
+
+``` 
+>> [MJ] You can give a brief introduction of what this app is doing, what is its purpose on a high level.
+(dont use technical jargons simple explaination in few words should be fine.)
+``` 
+
   ### 7.1 Generate Channel API credentials
   * On Watson Media, Try it for free, sign up and get to the developers dashboard.
+  ``` 
+  >> [MJ] At this point in documentation the user is already in dashboard so you can remove this point.
+  ``` 
   * From the left navigation bar click on **API/SDK Access**.
+  ``` 
+  >> [MJ] At some places its being called left-side panel, left-hand side, left navigation. Please call it left panel throughout.
+  also it should be click on **Integration & apps > API/SDK Access**
+  Add this point:
+  * you will be asked to login, click on **login with your IBMid**
+  
+  ``` 
   * Click **Create New Credentials** to create Channel API credentials.
+  ``` 
+  >> [MJ] Click on **Create credentials** to create Channel API credentials.
+  ``` 
+  * Enter a **Application Name** as per choice.
+  ``` 
+  >> [MJ]Enter an **Application Name** as per choice.
+  ``` 
   * Enter a **Application Name** as per choice.
   * Enter http://localhost:8080/get_token as the Redirect URL.
   * Select **Web Application** from the radio as the application type.
   * Click Save and copy the **Client ID**.
+  ``` 
+  >> [MJ] Click on Save. 
+  After this add the below screenshot:
+  ``` 
+  ![](doc/src/images/createCreds.png)
+  ``` 
+  >> [MJ] Add this point:
+  * Once the credentials are created copy the `Client id` as it will be required in the next step.
+  and add this screenshot:
+  ```
+  ![](doc/src/images/clientId.png)
 
   ### 7.2 Build React UI
   Go to the directory on your local system where you cloned the repository and go inside the `React UI` folder and run the following command on your terminal.
