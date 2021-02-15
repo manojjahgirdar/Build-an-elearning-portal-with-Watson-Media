@@ -90,7 +90,7 @@ If you don't have IBM ID,  create an account on IBM Cloud Account
 using the same ID, 
 * Click on Free Trial on [Watson Media Page](https://www.ibm.com/watson/media/services)
 ```
->> [MJ] Check this URL, I don’t see Free Trial option on this page.
+>> [MJ] Check this URL, I don’t see Free Trial option on this page. Probably its this URL: https://www.ibm.com/watson/media
 ```
 * Login using IBM ID. Your 30 days free trial of the product will be activated. 
 
