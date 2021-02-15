@@ -97,6 +97,10 @@ using the same ID,
 <img src="doc/src/images/Dashboard.png" alt="Dashboard " title="dashboard" width="800" height="500" />
 
 ## 2. Create the Channels.
+```
+>> [MJ] Explain a little bit about channels, why are we creating them what purpose do they solve etc..
+this is just to give a background for non technical develoeprs.
+```
 * Click on `Create Channel`.
   ```
   Note: Free Trial allows you to create only one channel, you need to upgrade to premium account to create more.
