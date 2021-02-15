@@ -153,7 +153,9 @@ select your desired language, finally click on **Create** as shown.
 >> [MJ] Select all the files you want to upload from the computer, 
 you can also give it a name and description and click on **Start Upload** button to upload the video on Watson Media.
 attach this screenshot here: 
-
+```
+![](doc/src/images/Screenshot 2021-02-15 at 4.02.33 PM.png) 
+```
 Give a note here saying "Uploading videos will take some time based on your internet bandwidth,
 please be patient for the upload to complete and watson media to process it."
 ``` 
