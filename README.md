@@ -10,8 +10,17 @@ Hence you can simple write a few lines in your own words or you can say learn mo
 ```
 
 In this code pattern, we will demonstrate how to quickly build an `e-learning portal` using `Watson Media`.
+```
+>> [MJ] Edit the above sentence as -
+After completing the code pattern, you understand how to:
 
+followed by the 5 points that you have mentioned.
+```
 The Scope of this Code Pattern is limited to following capabilities. `However, the Solutions can be scaled to accomodate a lot more functionalities andd capabilities through the Services, Products, Solutions and APIs provided by Watson Media.`  
+
+```
+>> [MJ] Move this paragraph below the 5 points.
+```
 
 - Create channels for different areas of learning. 
 - Create and upload videos for a channel.
