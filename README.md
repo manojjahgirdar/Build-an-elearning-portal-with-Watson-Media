@@ -6,7 +6,8 @@ The COVID pandemic has altered our conventional ways of working in companies, st
 
 ```
 >> [MJ] This paragraph is copied as it is from https://www.ibm.com/watson/media which will bring down the NPS score. 
-Hence you can simple write a few lines in your own words or you can say learn more about watson media here and give the above link.
+Hence you can simple write a few lines in your own words or you can say learn more about watson media here
+and give the above link.
 ```
 
 In this code pattern, we will demonstrate how to quickly build an `e-learning portal` using `Watson Media`.
@@ -177,7 +178,9 @@ please be patient for the upload to complete and watson media to process it."
 ![Watch this Gif](doc/src/images/upload.gif)
 
 ```
->> [MJ] The Gif seems to be fast, probably you can just keep the images individually rather than a gif or you can try a simple tool called giphy capture (https://giphy.com/apps/giphycapture) to capture gifs.
+>> [MJ] The Gif seems to be very fast,
+probably you can just keep the images individually rather than a gif 
+or you can try a simple tool called giphy capture (https://giphy.com/apps/giphycapture) to capture gifs.
 ```
 ``` 
 >> [MJ] Add this point: * You will see a message popup saying the selected videos are published.
@@ -214,12 +217,15 @@ In the **Title** field, enter your playlist name, and click on **Create playlist
 ![Watch this Gif](doc/src/images/playlist.gif)
 
 ```
->> [MJ] The Gif seems to be fast, probably you can just keep the images individually rather than a gif or you can try a simple tool called giphy capture (https://giphy.com/apps/giphycapture) to capture gifs.
+>> [MJ] The Gif seems to be very fast,
+probably you can just keep the images individually rather than a gif 
+or you can try a simple tool called giphy capture (https://giphy.com/apps/giphycapture) to capture gifs.
 ```
 
 ## 5. Give Password Restriction on the Channel.
 ``` 
->> [MJ] Explain why is this an important feature and how will it help the content creators, in few lines should be good enough.
+>> [MJ] Explain why is this an important feature and how will it help the content creators,
+in few lines should be good enough.
 ``` 
 * On the Dashboard, Click on `Security` Tab on the left-side panel.
 
@@ -234,7 +240,8 @@ In the **Title** field, enter your playlist name, and click on **Create playlist
 
 ## 6. Restrict Domains where video can be embedded.
 ``` 
->> [MJ] Again explain why is this an important feature and how will it help the content creators, in few lines should be good enough.
+>> [MJ] Again explain why is this an important feature and how will it help the content creators, 
+in few lines should be good enough.
 ``` 
 * On the Dashboard, Click on `Security` Tab on the left-side panel.
 * Click on `Embed Restriction`
@@ -244,7 +251,8 @@ In the **Title** field, enter your playlist name, and click on **Create playlist
 * Checkmark the `specify the domains where your streams can be embedded ` button.
 * Give the domains where you want to allow or restrict and hit `save`. 
 ``` 
->> [MJ] This domain will be available only after the application is deployed on kubernetes hence this step should be after step 7.
+>> [MJ] This domain will be available only after the application is deployed on kubernetes hence this step should 
+be after step 7.
 ``` 
 
 <img src="doc/src/images/restrictembed.png" alt="Create Channel" title="Create Channel" width="800" height="500" />
@@ -263,7 +271,8 @@ In the **Title** field, enter your playlist name, and click on **Create playlist
   ``` 
   * From the left navigation bar click on **API/SDK Access**.
   ``` 
-  >> [MJ] At some places its being called left-side panel, left-hand side, left navigation. Please call it left panel throughout.
+  >> [MJ] At some places its being called left-side panel, left-hand side, left navigation. 
+  Please call it left panel throughout.
   also it should be click on **Integration & apps > API/SDK Access**
   Add this point:
   * you will be asked to login, click on **login with your IBMid**
