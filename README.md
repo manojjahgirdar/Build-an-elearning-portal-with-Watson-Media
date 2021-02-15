@@ -294,6 +294,11 @@ In the **Title** field, enter your playlist name, and click on **Create playlist
   ![](doc/src/images/clientId.png)
 
   ### 7.2 Build React UI
+  
+  ``` 
+  >> [MJ] Why are we building React UI? is it not already built and placed in NodeJs directory?
+  ``` 
+  
   Go to the directory on your local system where you cloned the repository and go inside the `React UI` folder and run the following command on your terminal.
   ```bash
   npm run build
