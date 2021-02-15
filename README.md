@@ -302,7 +302,7 @@ In the **Title** field, enter your playlist name, and click on **Create playlist
   Go to the directory on your local system where you cloned the repository and go inside the `React UI` folder and run the following command on your terminal.
   
   ``` 
-  >> [MJ] you can simply say: In the repo parent folder, go to `/React UI` 
+  >> [MJ] you can simply say: In the repo parent folder, go to `Code/React UI` 
   ``` 
   
   ```bash
@@ -310,14 +310,16 @@ In the **Title** field, enter your playlist name, and click on **Create playlist
   ```
   
   ``` 
-  >> [MJ] add cd Build-an-elearning-portal-with-Watson-Media/ before npm run build
+  >> [MJ] add cd Build-an-elearning-portal-with-Watson-Media/Code/React\ UI/ before npm run build
+  please verify the code structure in the repo.
   ``` 
 
   ### 7.3 Move build to node directory
   
   ``` 
-  >> [MJ] These steps are part of Building React UI hence they may not be separate points. 
-  If you want to make it separate points then nest them. example: 7.2.1, 7.2.2 rather than 7.3 and 7.4
+  >> [MJ] this steps is a part of Building React UI hence it may not be separate point. 
+  If you want to make it separate points then nest them. example: 7.2.1 rather than 7.3
+  However its not recomended to make it a separate point.
   ``` 
   
   After creating the react build run the following command in your terminal in the same directory as the build folder.
@@ -329,9 +331,15 @@ In the **Title** field, enter your playlist name, and click on **Create playlist
   ```bash
   npm install
   ```
+  ``` >> [MJ] I dont see watson-media-node folder in the repo please fix it``` 
+  
 
    ### 7.5 Deploy the Application
   <details><summary><b>Deploy Locally</b></summary>
+   
+   ``` 
+   >> [MJ] Remove step 7.4 and add it here as 1st point
+   ``` 
 
   * After node modules have been installed run the following command 
   ```bash
@@ -339,14 +347,36 @@ In the **Title** field, enter your playlist name, and click on **Create playlist
   ```
   After this the application is listening on http://localhost:8080/
 
-  * Open your Web Browser and visit http://localhost:8080 .You will be redirected to http://localhost:8080/admin . Here enter the Client ID that you previously copied. and click **Authorize.**
+  * Open your Web Browser and visit http://localhost:8080 .You will be redirected to http://localhost:8080/admin .
+  ``` 
+  >> [MJ] Explain about the first actor who is coming into picture here. (The Admin/content creator)
+  ``` 
+  Here enter the Client ID that you previously copied. and click **Authorize.**
   ![admin_auth](doc/src/images/admin_auth.png)
 
   * This will redirect you to Watson Media OAuth and you will be required to login with your W3, UStream or Device Credentials. After logging in, click **Authorize.**
+  
+  ```
+  >> [MJ] Break the steps into three different steps as there is 2 pages navigation.
+  First point:
+  This will redirect you to Watson Media OAuth and you will be required to login with your W3, UStream or Device Credentials.
+  Secont point:
+  Click on **Login with your IBMid** to continue the auth process.
+  Then show the admin oauth screenshot
+  Third point:
+  After logging in, click **Authorize.**
+  Then show the authorize screenshot
+  ``` 
+  
   ![admin_oauth](doc/src/images/admin_oauth.png)
   ![authorize](doc/src/images/authorize.png)
 
-  * Successful Authentication will redirect you to http://localhost:8080/login . 
+  * Successful Authentication will redirect you to http://localhost:8080/login .
+  
+  ``` 
+  >> [MJ] Explain about the second actor who is coming into picture here.
+  ``` 
+  
   Here the user is required to enter the login credentials managed by the developer. For demonstration we are using the credentials stored in `React UI/src/content/sampleLogin.json`.
   Look them up and enter it in the text boxes on `/login` and click Login.
   ![login](doc/src/images/login.png)
