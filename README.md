@@ -138,10 +138,32 @@ select your desired language, finally click on **Create** as shown.
 
 ## 3. Upload Videos on the Channel.
 * Click on `Videos Button` on the left-hand side Dashboard. 
+``` 
+>> [MJ] Click on **Videos** in the left panel
+``` 
 * Click `upload` button.
-* Select all the files you want to upload from the computer and click `open`.
+
 ```
->> [MJ] Are we not providing any sample video files?
+>> [MJ] Click on the **Upload your first video** button.
+``` 
+
+* Select all the files you want to upload from the computer and click `open`.
+
+``` 
+>> [MJ] Select all the files you want to upload from the computer, 
+you can also give it a name and description and click on **Start Upload** button to upload the video on Watson Media.
+attach this screenshot here: 
+
+Give a note here saying "Uploading videos will take some time based on your internet bandwidth,
+please be patient for the upload to complete and watson media to process it."
+``` 
+
+``` 
+>> [MJ] Also say that maximum 500GB storage is available in lite plan.
+``` 
+
+```
+>> [MJ] Also are we not providing any sample video files here?
 ```
 * Click `Start to Upload` Button. 
 * After the upload is complete, Go back to Dashboard, under Videos section, Select all the uploaded videos and Hit Publish. 
