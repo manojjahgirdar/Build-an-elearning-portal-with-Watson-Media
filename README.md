@@ -300,11 +300,26 @@ In the **Title** field, enter your playlist name, and click on **Create playlist
   ``` 
   
   Go to the directory on your local system where you cloned the repository and go inside the `React UI` folder and run the following command on your terminal.
+  
+  ``` 
+  >> [MJ] you can simply say: In the repo parent folder, go to `/React UI` 
+  ``` 
+  
   ```bash
   npm run build
   ```
+  
+  ``` 
+  >> [MJ] add cd Build-an-elearning-portal-with-Watson-Media/ before npm run build
+  ``` 
 
   ### 7.3 Move build to node directory
+  
+  ``` 
+  >> [MJ] These steps are part of Building React UI hence they may not be separate points. 
+  If you want to make it separate points then nest them. example: 7.2.1, 7.2.2 rather than 7.3 and 7.4
+  ``` 
+  
   After creating the react build run the following command in your terminal in the same directory as the build folder.
   ```bash
   mv ./build ./../
