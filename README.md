@@ -110,9 +110,8 @@ and any configurations like api, credentials.json etc should be in back quotes
 Ex: `credentials.json` hence change this everywhere wherever necessary.
 ```
 
-  ```
-  Note: Free Trial allows you to create only one channel, you need to upgrade to premium account to create more.
-  ```
+>Note: Free Trial allows you to create only one channel, you need to upgrade to premium account to create more.
+
 * Give the `Channel Name.` 
 
 ``` 
